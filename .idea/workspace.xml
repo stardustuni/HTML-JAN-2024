@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44415548-03d4-41a2-97fb-07125462e8d9" name="Changes" comment="Work 1 st done">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML-JAN-2024.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson 1/Work 1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson 1/Work 2.html" afterDir="false" />
+    <list default="true" id="44415548-03d4-41a2-97fb-07125462e8d9" name="Changes" comment="Work 2 nd done">
+      <change afterPath="$PROJECT_DIR$/Lesson 1/Work 3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -51,6 +46,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -67,8 +63,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706618015919</updated>
-      <workItem from="1706618016930" duration="5467000" />
+      <workItem from="1706618016930" duration="13741000" />
     </task>
+    <task id="LOCAL-00001" summary="Work 2 nd done">
+      <option name="closed" value="true" />
+      <created>1706635594880</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706635594880</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,6 +81,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Work 1 st done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Work 1 st done" />
+    <MESSAGE value="Work 2 nd done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Work 2 nd done" />
   </component>
 </project>
