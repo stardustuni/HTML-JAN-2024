@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>4colorblocks</title>
+    <style>
+        .cube1{
+            width: 70%;
+            height: 440px;
+            background-color: white;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            flex-direction: row;
+        }
+        .block{
+            height: 200px;
+            width: 350px;
+            background-color: white;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            border-radius: 8px;
+        }
+        .littleb{
+            height: 40px;
+            width: 130px;
+            background-color: black;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-left: 25px;
+            margin-bottom: 25px;
+            border-radius: 8px;
+        }
+        .littlep{
+            height: 40px;
+            width: 100px;
+            background-color: black;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-left: 25px;
+            margin-bottom: 25px;
+            border-radius: 8px;
+
+        }
+        .littley{
+            height: 40px;
+            width: 110px;
+            background-color: black;
+            display: flex;
+            justify-items: flex-end;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            margin-left: 25px;
+            margin-bottom: 25px;
+            border-radius: 8px;
+        }
+        .littler{
+            height: 40px;
+            width: 170px;
+            background-color: black;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-left: 25px;
+            margin-bottom: 25px;
+            border-radius: 8px;
+        }
+        .b{
+            color: white;
+            width: 110px;
+            margin-top: 14px;
+        }
+        .p{
+            color: white;
+            width: 75px;
+            margin-top: 4px;
+        }
+        .y{
+            color: white;
+            width: 85px;
+            margin-top: 25px;
+        }
+        .r{
+            color: white;
+            width: 145px;
+            margin-top: 25px;
+        }
+        span{
+            color: white;
+            font-family: 'Quarion' , sans-serif;
+            font-size: 13px;
+        }
+        h1{
+            font-family: 'Quarion' , sans-serif;
+            font-size: 25px;
+            margin-bottom: 80px;
+
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="cube1">
+    <div class="block"
+         style="background-color: #699BF7 "><h1>Dev Mode tutorial</h1>
+        <div class="littleb"><span>Watch the video</span><hr class="b"></div>Tutorial video</div>
+    <div class="block"
+         style="background-color: #C7B9FF"><h1>Making Figma better for developers</h1><div class="littlep"><span>Go
+        to the blog</span><hr class="p"></div></div>
+    <div class="block"
+         style="background-color: #FFC700"><h1>Guide to Dev Mode</h1>
+        <div class="littley"><span>Read the article</span><hr class="y"></div></div>
+    <div class="block"
+         style="background-color: #FF8577"><h1>Prototype with variables</h1><div
+            class="littler"><span>Go to the playground</span><hr class="r"></div></div>
+</div>
+</body>
+</html>
