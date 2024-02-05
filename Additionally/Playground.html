@@ -30,7 +30,9 @@
             border-radius: 6px;
             border: 3px solid darkgreen;
             font-family: Arial, sans-serif;
-            justify-content: space-around;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column-reverse;
 
         }
         .block2 {
@@ -43,7 +45,9 @@
             border-radius: 6px;
             border: 3px solid darkgreen;
             font-family: Arial, sans-serif;
-            justify-content: space-around;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column-reverse;
             font-size: large;
         }
         .text{
@@ -57,12 +61,16 @@
 <body>
 <div><h1>How do you want to use this playground?</h1></div>
 <div class="main">
-    <div class="block1"><div class="text"><span>I want to learn the feature by trying it - you can just drop me in an
-        example file with some tips</span></div><b><p>Get me started ASAP</p></b></div>
+    <div class="block1"><div class="text"><span>I want to learn the feature by trying it - you can just drop me
+                                                      in an
+        example file with some tips</span></div><span><b>Get me started ASAP</b><br><hr style="margin-bottom: 10px"></span></div>
     <div class="text"><p></p></div>
     <div class="block2"><div
-            class="text"><span>I want to learn about each topic before trying an example</span></div><b><p>Show me
-        everything</p></b></div>
+            class="text"><span>I want to learn about each topic before trying an
+        example</span></div><span
+            style="margin-bottom: 16px"><b>Show me
+        everything
+    </b><br><hr></span></div>
 </div>
 
 </body>
