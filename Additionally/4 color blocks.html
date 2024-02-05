@@ -13,91 +13,50 @@
             justify-content: space-between;
             flex-direction: row;
         }
-        .block{
+        .blockpurple{
             height: 200px;
             width: 350px;
-            background-color: white;
             display: flex;
-            align-items: flex-end;
-            justify-content: center;
+            align-items: flex-start;
             border-radius: 8px;
         }
-        .littleb{
+        .blockblue{
+            height: 200px;
+            width: 350px;
+            display: flex;
+            align-items: flex-start;
+            border-radius: 8px;
+            margin-left: 165px;
+        }.blockred{
+             height: 200px;
+             width: 350px;
+             display: flex;
+             align-items: flex-start;
+             border-radius: 8px;
+                 }
+        .blockyellow{
+            height: 200px;
+            width: 350px;
+            display: flex;
+            align-items: flex-start;
+            border-radius: 8px;
+            margin-left: 165px;
+        }
+        .bottom{
             height: 40px;
             width: 130px;
             background-color: black;
             display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
             margin-left: 25px;
             margin-bottom: 25px;
             border-radius: 8px;
-        }
-        .littlep{
-            height: 40px;
-            width: 100px;
-            background-color: black;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            margin-left: 25px;
-            margin-bottom: 25px;
-            border-radius: 8px;
-
-        }
-        .littley{
-            height: 40px;
-            width: 110px;
-            background-color: black;
-            display: flex;
-            justify-items: flex-end;
-            flex-direction: row;
-            flex-wrap: wrap;
-            align-items: center;
-            margin-left: 25px;
-            margin-bottom: 25px;
-            border-radius: 8px;
-        }
-        .littler{
-            height: 40px;
-            width: 170px;
-            background-color: black;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            margin-left: 25px;
-            margin-bottom: 25px;
-            border-radius: 8px;
-        }
-        .b{
-            color: white;
-            width: 110px;
-            margin-top: 14px;
-        }
-        .p{
-            color: white;
-            width: 75px;
-            margin-top: 4px;
-        }
-        .y{
-            color: white;
-            width: 85px;
-            margin-top: 25px;
-        }
-        .r{
-            color: white;
-            width: 145px;
-            margin-top: 25px;
+            font-family: Quarion,sans-serif;
+            font-size: smaller;
+            
         }
         span{
-            color: white;
-            font-family: 'Quarion' , sans-serif;
-            font-size: 13px;
-        }
-        h1{
-            font-family: 'Quarion' , sans-serif;
-            font-size: 25px;
-            margin-bottom: 80px;
+            font-family: Quarion,sans-serif;
+            margin-left: 30px;
 
         }
 
@@ -106,18 +65,17 @@
 </head>
 <body>
 <div class="cube1">
-    <div class="block"
-         style="background-color: #699BF7 "><h1>Dev Mode tutorial</h1>
-        <div class="littleb"><span>Watch the video</span><hr class="b"></div>Tutorial video</div>
-    <div class="block"
-         style="background-color: #C7B9FF"><h1>Making Figma better for developers</h1><div class="littlep"><span>Go
-        to the blog</span><hr class="p"></div></div>
-    <div class="block"
-         style="background-color: #FFC700"><h1>Guide to Dev Mode</h1>
-        <div class="littley"><span>Read the article</span><hr class="y"></div></div>
-    <div class="block"
-         style="background-color: #FF8577"><h1>Prototype with variables</h1><div
-            class="littler"><span>Go to the playground</span><hr class="r"></div></div>
+    <div class="blockblue" style=" background-color: #699BF7"><span style="font-size: x-large">Tutorial video<br><span><b>Dev Mode
+        tutorial</b></span></span><div class="bottom"><span style="color: white">Watch the video</span><br></div></div>
+    <div class="blockpurple"
+         style=" background-color: #C7B9FF"><span>Blog
+        post<br><span style="font-size: x-large"><b>Making Figma better for developers</b></span></span><div class="bottom"><span style="color: white">Go to the blog</span><br></div></div>
+    <div class="blockyellow" style=" background-color: #FFC700"><span>Help center<br><span
+            style="font-size: x-large"><b>Guide to Dev Mode</b></span></span><div class="bottom"><span style="color: white">Read the article</span><br></div></div>
+    <div class="blockred"
+         style=" background-color: #FF8577"><span>Playgroud<br><span style="font-size: x-large"><b>Prototype with
+        variables</b></span><div class="bottom"><span style="color: white">Go to the playground</span><br></div></span>
+
 </div>
 </body>
 </html>
