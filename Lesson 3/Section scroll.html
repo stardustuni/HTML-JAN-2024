@@ -15,7 +15,6 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: flex-start;
         }
         section a{
             text-decoration: none;
@@ -32,16 +31,17 @@
         p{
             font-size: xxx-large;
             text-align: center;
+            color: black;
         }
         span{
             font-size: 60px;
-            color: black;
+            color: #4E4949;
         }
         h5{
             align-items: center;
             padding-right: 40px;
             padding-left: 40px;
-            font-size: larger;
+            font-size: x-large;
         }
 
 
@@ -50,19 +50,18 @@
 <body>
 <section id="blue"><p>Section Title</p><h5>Cascading Style Sheets (CSS) is a style sheet language used for
     specifying the presentation and styling of a
-        document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or
+    document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or
     XHTML).CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript</h5>
-<a href="#yellow"><span>&#8595;</span></a></section>
-<section id="yellow"><p>Section Title</p><h5>Cascading Style Sheets (CSS) is a style sheet language used for
+    <a href="#yellow"><span>&#8595;</span></a></section>
+<section id="yellow"><p>Section Title</p><a href="#blue"><span>&#8593;</span></a><h5>Cascading Style Sheets (CSS) is a style sheet language used for
     specifying the presentation and styling of a
-        document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or
-        XHTML).CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript</h5>
-<a href="#blue"><span>&#8593;</span></a>
-<a href="#orange"><span>&#8595;</span></a></section>
+    document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or
+    XHTML).CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript</h5>
+    <a href="#orange"><span>&#8595;</span></a></section>
 <section id="orange"><p>Section Title</p>
     <h5>Cascading Style Sheets (CSS) is a style sheet language used for specifying the presentation and styling of a
         document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or
         XHTML).CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript</h5>
-<a href="#blue"><span>&#8593;</span></a></section>
+    <a href="yellow"><span>&#8593;</span></a></section>
 </body>
 </html>
