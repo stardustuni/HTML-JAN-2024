@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44415548-03d4-41a2-97fb-07125462e8d9" name="Changes" comment="less2 add">
+    <list default="true" id="44415548-03d4-41a2-97fb-07125462e8d9" name="Changes" comment="work lesson 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson 3/Section scroll.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 3/Section scroll.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -41,6 +42,7 @@
     <hideBySeverity>
       <option value="300" />
     </hideBySeverity>
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -66,6 +68,10 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -80,6 +86,17 @@
       <workItem from="1706618016930" duration="13741000" />
       <workItem from="1706882435067" duration="634000" />
       <workItem from="1706886976174" duration="204000" />
+      <workItem from="1706895553356" duration="49000" />
+      <workItem from="1706985841260" duration="16987000" />
+      <workItem from="1707003264516" duration="60000" />
+      <workItem from="1707003327158" duration="5118000" />
+      <workItem from="1707008460141" duration="8890000" />
+      <workItem from="1707063379710" duration="7076000" />
+      <workItem from="1707080197818" duration="80000" />
+      <workItem from="1707080283631" duration="30000" />
+      <workItem from="1707080332181" duration="151000" />
+      <workItem from="1707091533023" duration="13141000" />
+      <workItem from="1707165250434" duration="18844000" />
     </task>
     <task id="LOCAL-00001" summary="Work 2 nd done">
       <option name="closed" value="true" />
@@ -113,7 +130,63 @@
       <option name="project" value="LOCAL" />
       <updated>1706882690567</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="less2 add">
+      <option name="closed" value="true" />
+      <created>1706895574382</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706895574382</updated>
+    </task>
+    <task id="LOCAL-00006" summary="food">
+      <option name="closed" value="true" />
+      <created>1707008421375</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707008421375</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add work">
+      <option name="closed" value="true" />
+      <created>1707080266225</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1707080266225</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add work">
+      <option name="closed" value="true" />
+      <created>1707095958233</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1707095958233</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add work">
+      <option name="closed" value="true" />
+      <created>1707097146043</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1707097146043</updated>
+    </task>
+    <task id="LOCAL-00010" summary="lesson 3">
+      <option name="closed" value="true" />
+      <created>1707183403252</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1707183403252</updated>
+    </task>
+    <task id="LOCAL-00011" summary="work lesson 3">
+      <option name="closed" value="true" />
+      <created>1707184152391</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1707184152391</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +207,10 @@
     <MESSAGE value="Work 1 st done" />
     <MESSAGE value="Work 2 nd done" />
     <MESSAGE value="less2 add" />
-    <option name="LAST_COMMIT_MESSAGE" value="less2 add" />
+    <MESSAGE value="food" />
+    <MESSAGE value="add work" />
+    <MESSAGE value="lesson 3" />
+    <MESSAGE value="work lesson 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="work lesson 3" />
   </component>
 </project>
