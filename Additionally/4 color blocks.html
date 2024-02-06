@@ -4,78 +4,49 @@
     <meta charset="UTF-8">
     <title>4colorblocks</title>
     <style>
-        .cube1{
-            width: 70%;
-            height: 440px;
+        .main {
+            width: 700px;
+            height: 900px;
             background-color: white;
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-between;
-            flex-direction: row;
+            align-content: flex-start;
+            margin-left: 300px;
         }
-        .blockpurple{
-            height: 200px;
-            width: 350px;
-            display: flex;
-            align-items: flex-start;
-            border-radius: 8px;
-        }
-        .blockblue{
-            height: 200px;
-            width: 350px;
-            display: flex;
-            align-items: flex-start;
-            border-radius: 8px;
-            margin-left: 165px;
-        }.blockred{
-             height: 200px;
-             width: 350px;
-             display: flex;
-             align-items: flex-start;
-             border-radius: 8px;
-                 }
-        .blockyellow{
-            height: 200px;
-            width: 350px;
-            display: flex;
-            align-items: flex-start;
-            border-radius: 8px;
-            margin-left: 165px;
+        .block{
+            width: 310px;
+            height: 180px;
+            border-radius: 7px;
+            margin: 10px;
         }
         .bottom{
-            height: 40px;
-            width: 130px;
+            width: 115px;
+            height: 35px;
             background-color: black;
-            display: flex;
+            border-radius: 5px;
             margin-left: 25px;
-            margin-bottom: 25px;
-            border-radius: 8px;
-            font-family: Quarion,sans-serif;
-            font-size: smaller;
-            
+            margin-top: 70px;
+        }
+        p{
+            font-family: Quarion, sans-serif;
         }
         span{
-            font-family: Quarion,sans-serif;
-            margin-left: 30px;
-
+            font-family: Quarion, sans-serif;
+            font-size: larger;
         }
-
 
     </style>
 </head>
 <body>
-<div class="cube1">
-    <div class="blockblue" style=" background-color: #699BF7"><span style="font-size: x-large">Tutorial video<br><span><b>Dev Mode
-        tutorial</b></span></span><div class="bottom"><span style="color: white">Watch the video</span><br></div></div>
-    <div class="blockpurple"
-         style=" background-color: #C7B9FF"><span>Blog
-        post<br><span style="font-size: x-large"><b>Making Figma better for developers</b></span></span><div class="bottom"><span style="color: white">Go to the blog</span><br></div></div>
-    <div class="blockyellow" style=" background-color: #FFC700"><span>Help center<br><span
-            style="font-size: x-large"><b>Guide to Dev Mode</b></span></span><div class="bottom"><span style="color: white">Read the article</span><br></div></div>
-    <div class="blockred"
-         style=" background-color: #FF8577"><span>Playgroud<br><span style="font-size: x-large"><b>Prototype with
-        variables</b></span><div class="bottom"><span style="color: white">Go to the playground</span><br></div></span>
+<div class="main">
+    <div class="block" style="background-color: #699BF7"><span>Tutorial
+        video<br><span><b>Dev Mode tutorial</b></span></span><div
+            class="bottom"></div></div>
+    <div class="block" style=" background-color: #C7B9FF"><div class="bottom"></div></div>
+    <div class="block" style=" background-color: #FFC700"><div class="bottom"></div></div>
+    <div class="block" style=" background-color: #FF8577"><div class="bottom"></div></div>
 
 </div>
+
 </body>
 </html>
