@@ -4,48 +4,86 @@
     <meta charset="UTF-8">
     <title>4colorblocks</title>
     <style>
-        .main {
-            width: 700px;
-            height: 900px;
-            background-color: white;
-            display: flex;
-            flex-wrap: wrap;
-            align-content: flex-start;
-            margin-left: 300px;
+        body{
+            font-family: Quarion, sans-serif;
+        }
+        .blue{
+            background-color: #699BF7;
+        }
+        .purple{
+            background-color: #C7B9FF;
+        }
+        .yellow{
+            background: #FFC700;
+        }
+        .red{
+            background-color: #FF8577;
         }
         .block{
-            width: 310px;
-            height: 180px;
-            border-radius: 7px;
-            margin: 10px;
+            width: 350px;
+            height: 170px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            border-radius: 8px;
+            padding: 30px;
+            margin-top: 12px;
+            margin: 12px;
+            align-items: flex-start;
         }
-        .bottom{
-            width: 115px;
-            height: 35px;
+        button {
+            border-radius: 6px;
             background-color: black;
-            border-radius: 5px;
-            margin-left: 25px;
-            margin-top: 70px;
+            color: white;
+            height: 40px;
+
         }
-        p{
-            font-family: Quarion, sans-serif;
+        .block p,h2{
+            margin: 0;
         }
-        span{
-            font-family: Quarion, sans-serif;
-            font-size: larger;
+        .block h2{
+            font-size: 35px;
+        }
+        .block p{
+            font-size: 20px;
+        }
+        .blocks{
+            width: 100vw;
+            height: 70vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
         }
 
     </style>
 </head>
 <body>
-<div class="main">
-    <div class="block" style="background-color: #699BF7"><span>Tutorial
-        video<br><span><b>Dev Mode tutorial</b></span></span><div
-            class="bottom"></div></div>
-    <div class="block" style=" background-color: #C7B9FF"><div class="bottom"></div></div>
-    <div class="block" style=" background-color: #FFC700"><div class="bottom"></div></div>
-    <div class="block" style=" background-color: #FF8577"><div class="bottom"></div></div>
-
+<div class="blocks">
+    <div class="block blue">
+        <div>
+            <p>Tutorial video</p>
+            <h2>Dev Mode Tutorial</h2></div>
+        <button>Watch the video</button>
+    </div>
+    <div class="block purple">
+        <div>
+            <p>Blog post</p>
+            <h2>Making Figma better for developers</h2></div>
+        <button>Go to the blog</button>
+    </div>
+    <div class="block yellow">
+        <div>
+            <p>Help center</p>
+            <h2>Guide to Dev Mode</h2></div>
+        <button>Read the article</button>
+    </div>
+    <div class="block red">
+        <div>
+            <p>Playground</p>
+            <h2>Prototypes with variables</h2></div>
+        <button>Go to the playground</button>
+    </div>
 </div>
 
 </body>
