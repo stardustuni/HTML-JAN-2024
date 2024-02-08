@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <title>Lesson 4</title>
     <style>
+        body{
+            margin: 0;
+            font-family: KoHo,sans-serif;
+        }
         #page1{
             height: 100vh;
             background-image: url("images/image 4.png");
@@ -18,14 +22,135 @@
             height: 100vh;
             background-image: url("images/Rectangle 16.png");
             background-size: cover;
-
+        }
+        .cover{
+            height: 80vh;
+            width: 90vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 6vw;
+        }
+        .block{
+            display: flex;
+            background-color: #FAF9F7;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            width: 40vw;
+            height: 40vh;
+        }
+        img{
+            height: 40vh;
+            width: 40vw;
+        }
+        button{
+            width: 30vw;
+            height: 7vh;
+            border-radius: 5px;
+            border: 1px solid rgba(156, 152, 152, 0.10);
+            background: rgba(217, 217, 217, 0.60);
+            box-shadow: rgba(0, 0, 0, 0.25);
+        }
+        .text{
+            font-size: 25px;
+            margin: 0;
+        }
+        .text2{
+            font-size: 17px;
+        }
+        #page1{
+            display: flex;
+            align-items: center;
+        }
+        #page2{
+            margin: 0;
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 8vh;
+            align-items: center;
+            flex-direction: column;
+        }
+        #page2 div p{
+            font-size: 23px;
+            margin-left: 22vw;
+            margin-right: 21vw;
+        }
+        nav{
+            width: 29vw;
+            height: 68vh;
+            background-color: rgba(83, 83, 83, 0.40);
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            align-items: center;
+        }
+        aside{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        #page3 aside nav img{
+            width: 27vw;
+            height: 21vh;
+            margin: 10px;
+        }
+        .button3{
+            border-radius: 5px;
+            border: 1px solid rgba(156, 152, 152, 0.10);
+            background: rgba(217, 217, 217, 0.60);
+            box-shadow: rgba(0, 0, 0, 0.25);
+            width: 26vw;
+            height: 7vh;
+            color:  #6B6666;
+            font-family: KoHo,sans-serif;
+        }
+        .big{
+            font-size: 21px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        .margin{
+            margin-bottom: 20px;
         }
     </style>
 </head>
 <body>
 <section id="page1">
+    <div class="cover">
+        <div><img src="images/image%203.png"></div>
+        <div class="block"><p class="text">Lorem ipsum</p>
+            <p class="text2">Lorem ipsum dolor sit amet</p><button>Button</button></div>
+    </div>
+
 </section>
-<section id="page2"></section>
-<section id="page3"></section>
+<section id="page2">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/TCZNANOtdVY?si=kt1nKl6h7KLTGOmz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div class="under text"><p>ABSTRACT NATURE PHOTOGRAPHY Abstract nature photography: pushing myself creatively. In this video, I go into
+        the field to try to create semi-abstract or abstract nature photos, limiting myself to only one prime lens.
+    </p></div>
+</section>
+<section id="page3">
+    <aside>
+        <nav><img src="images/Rectangle 13.png"><p class="big">LOREM</p><p class="margin">Lorem ipsum dolor sit
+            amet</p><p>50$
+        </p><button
+                class="button3">Button
+        </button></nav>
+        <nav><img src="images/Rectangle 10.png"><p class="big">LOREM</p><p class="margin">Lorem ipsum dolor sit
+            amet</p><p>70$
+        </p><button
+                class="button3">Button
+        </button></nav>
+        <nav><img src="images/Rectangle 10 (1).png"><p class="big">LOREM</p><p class="margin">Lorem ipsum dolor sit
+            amet</p><p>85$
+        </p><button class="button3">Button
+        </button></nav>
+    </aside>
+
+</section>
 </body>
 </html>
