@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Instagram</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        main{
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+        article{
+            height: 85vh;
+            width: 77vw;
+            background-color: white;
+            border: 2px solid lightgrey;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        footer{
+            height: 10vh;
+            width: 77vw;
+            background-color: white;
+            border: 2px solid lightgray;
+            display: flex;
+            justify-content: center;
+        }
+        input[type="text"],
+        input[type="password"]
+        {
+            width: 39vw;
+            height: 8vh;
+            border: 2px solid lightgray;
+            border-radius: 4px;
+            background-color: #FAF9F7;
+            text-overflow: ellipsis ;
+            padding-left: 20px;
+        }
+        input[type="text"],input[type="password"]::placeholder{
+            font-size: 22px;
+            font-family: Quarion, sans-serif ;
+        }
+        button{
+            background-color: dodgerblue;
+            border-radius: 12px;
+            border: dodgerblue;
+            width: 83vh;
+            height: 8vh;
+            color: white;
+            font-size: 27px;
+        }
+        img{
+            height: 29vh;
+            width: 37vw;
+        }
+        .facebook{
+            height: 27px;
+            width: 27px;
+            margin-left: 90px;
+        }
+        .blue{
+            color: dodgerblue;
+            font-size: 23px;
+            font-family: Quarion, sans-serif ;
+            margin-left: 17px;
+        }
+        aside{
+            height: 45px;
+            width: 500px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .forget{
+            font-family: Helvetica,sans-serif;
+            color: midnightblue;
+            font-size: 20px;
+        }
+        .but{
+            color: #4E4949;
+            font-size: 18px;
+            font-family: Helvetica,sans-serif;
+        }
+        .down{
+            font-family: Helvetica,sans-serif;
+            font-size: 25px;
+            display: flex;
+            height: 10vh;
+            width: 90vh;
+            align-items: center;
+            justify-content: center;
+        }
+        .res{
+            color: dodgerblue;
+            margin-left: 6px;
+            font-size: 26px;
+        }
+    </style>
+</head>
+<main>
+    <article>
+        <img src="images/Instagram.png">
+            <input type="text" name="username" placeholder="Hомер телефону,iм'я користувача або email">
+            <br>
+            <input type="password" name="password"  placeholder="Пароль">
+        <br>
+            <button>Увійти</button>
+        <b><p class="but">AБО</p></b>
+        <aside><img class="facebook" src="images/Facebook.png"><span class="blue">Увійти через Facebook</span></aside>
+        <p class="forget">Забули пароль?</p>
+    </article>
+    <footer>
+        <div class="down"><p>Не маєте облікового запису?</p>
+            <p class="res">Зареєструйся</p></div>
+    </footer>
+</main>
+<body>
+</body>
+</html>
