@@ -13,7 +13,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 100px;
+    padding-right: 110px;
     padding-left: 25px;
 }
 .logo{
@@ -50,8 +50,8 @@ button{
     border: 1px solid #FFF;
     backdrop-filter: blur(1px);
     background-color: transparent;
-    width: 135px;
-    height: 35px;
+    width: 115px;
+    height: 30px;
     color: #FFF;
     text-align: center;
     font-size: 12px;
@@ -72,7 +72,7 @@ section{
     height: 70vh;
 }
 .photo{
-    width: 50%;
+    width: 60%;
     height: 61vh;
     background-position: center;
     display: flex;
