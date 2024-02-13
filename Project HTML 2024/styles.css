@@ -17,15 +17,15 @@ header{
     padding-left: 25px;
 }
 .logo{
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
     flex-shrink: 0;
     padding-right: 5px;
 }
 span{
     color: #FFF;
     font-family: Montserrat,sans-serif;
-    font-size: 24px;
+    font-size: 22px;
 }
 .images{
     justify-items: center;
@@ -37,7 +37,7 @@ nav a{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.70);
     font-size: 14px;
-    margin: 18px;
+    margin: 20px;
 }
 nav a:nth-child(1){
     color: #5454D4;
@@ -50,7 +50,7 @@ button{
     border: 1px solid #FFF;
     backdrop-filter: blur(1px);
     background-color: transparent;
-    width: 115px;
+    width: 11%;
     height: 30px;
     color: #FFF;
     text-align: center;
@@ -80,8 +80,8 @@ section{
     justify-content: center;
 }
 .photo img{
-    height: 490px;
-    width: 480px;
+    height: 115%;
+    width: 115%%;
 }
 .info h1{
     padding-top: 25px;
