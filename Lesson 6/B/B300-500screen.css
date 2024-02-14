@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+}
+footer{
+    height: 30vh;
+    background-color: #FF8577;
+}
+.cover{
+    height: 70vh;
+    display: flex;
+}
+article{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+section{
+    width: 75vw;
+    height: 50%;
+    background-color: #699BF7;
+}
+.box{
+    height: 50%;
+    width: 25vw;
+    background-color: #795dea;
+    color: #F8F8F8;
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+}
+aside{
+    width: 34vw;
+    height: 70vh;
+    background-color: #FDC13D;
+}
+@media screen and (min-width: 300px) and (max-width: 500px) {
+
+footer{
+    height: 15vh;
+}
+    aside{
+        height: 25%;
+        width: 100%;
+    }
+.cover{
+ flex-wrap: wrap;
+}
+.box{
+    width: 33%;
+    height: 50%;
+}
+section{
+    width: 100%;
+}
+
+}
+
+
+
+
+
+
+
